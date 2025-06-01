@@ -1,0 +1,10 @@
+{
+  "name": "notes-app",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm start --prefix backend\" \"npm run dev --prefix frontend/frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
